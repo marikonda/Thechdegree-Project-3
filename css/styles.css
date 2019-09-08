@@ -1,0 +1,183 @@
+* { box-sizing: border-box;
+
+}
+
+html,body {
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(36, 14, 66);
+    padding: 20px 0;
+
+}
+
+.banner h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.banner p {
+    text-align: center;
+    color: rgb(148, 146, 143);
+    margin-bottom: 30px;
+   
+}
+
+hr.style1 {
+    border-top: solid 6px rgb(36, 14, 66);
+}
+
+hr.style2 {
+    border-top: solid 3px rgb(36, 14, 66);
+}
+
+.banner {
+    
+    padding: 15px;
+
+}
+
+.wrap{
+    padding: 10px;
+    background-color:lavenderblush;
+}
+
+fieldset {
+    border: none;
+    line-height: 2.5;
+}
+
+legend {
+    padding: 20px 0px;
+    font-size: 20px;
+    text-align:left;
+    font-weight: bolder;
+}
+
+label {
+    color: rgb(148, 146, 143);
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select[id="state"],
+input[type="number"],
+textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  margin-bottom: 30px;
+}
+    
+#zipcode {
+    display: block;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+
+::placeholder {
+    color: rgb(148, 146, 143);
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+input:focus,textarea:focus {
+    background-color: rgb(194, 219, 243);
+    border: solid 1px navy;
+
+}
+
+.newsletter-form p { 
+    margin-top: -20px;
+    color: rgb(148, 146, 143);
+}
+
+button {
+  padding: 30px;
+  color: #FFF;
+  background-color: #4ec7a7;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 10px;
+  width: 100%;
+  
+}
+
+footer{
+    background-color: lavenderblush;
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(148, 146, 143);
+    padding: 30px;
+    margin: auto;
+}
+
+@media (min-width:768px) {
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+
+    .contact_list label{
+       display: inline-block;
+       padding-right: 40px;
+       width: 200px;
+
+    }
+
+    .contact_list input,
+    .contact_list select {
+        justify-content: space-around;
+        margin-left: auto;
+        width: 500px;
+
+    }
+
+    #zipcode {
+        display: inline-block;
+        max-width: 30%;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
